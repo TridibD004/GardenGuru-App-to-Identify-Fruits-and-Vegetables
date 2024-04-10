@@ -6,6 +6,7 @@ import os
 from keras.models import load_model,model_from_json
 
 #model = load_model('class.h5')
+
 with open('model.json', 'r') as json_file:
     loaded_model_json = json_file.read()
 model = model_from_json(loaded_model_json)

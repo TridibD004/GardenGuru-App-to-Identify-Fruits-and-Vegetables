@@ -5,12 +5,12 @@ import numpy as np
 import json
 from keras.models import load_model,model_from_json
 
-#model = load_model('class.h5')
+model = load_model('FV.h5')
 
-with open('model.json', 'r') as json_file:
+"""with open('model.json', 'r') as json_file:
     loaded_model_json = json_file.read()
 model = model_from_json(loaded_model_json)
-model.load_weights("model_weights.h5")
+model.load_weights("model_weights.h5")"""
 
 labels = {0: 'apple', 1: 'banana', 2: 'beetroot', 3: 'bell pepper', 4: 'cabbage', 5: 'capsicum', 6: 'carrot',
           7: 'cauliflower', 8: 'chilli pepper', 9: 'corn', 10: 'cucumber', 11: 'eggplant', 12: 'garlic', 13: 'ginger',

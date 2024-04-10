@@ -5,7 +5,7 @@ import numpy as np
 import os
 from keras.models import load_model
 
-model = load_model('class.h5',compile=False)
+model = load_model('class.h5')
 
 labels = {0: 'apple', 1: 'banana', 2: 'beetroot', 3: 'bell pepper', 4: 'cabbage', 5: 'capsicum', 6: 'carrot',
           7: 'cauliflower', 8: 'chilli pepper', 9: 'corn', 10: 'cucumber', 11: 'eggplant', 12: 'garlic', 13: 'ginger',

@@ -1,7 +1,4 @@
 streamlit
-numpy
 Pillow
-flask
-keras
+keras==2.7.0
 tensorflow
-Keras-Preprocessing

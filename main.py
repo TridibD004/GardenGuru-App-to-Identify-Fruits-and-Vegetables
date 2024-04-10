@@ -3,7 +3,7 @@ from PIL import Image
 from keras_preprocessing.image import load_img, img_to_array
 import numpy as np
 import os
-from keras.models import load_model
+from keras.models import load_model,model_from_json
 
 #model = load_model('class.h5')
 with open('model.json', 'r') as json_file:
